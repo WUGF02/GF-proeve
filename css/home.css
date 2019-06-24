@@ -5,6 +5,14 @@
      .block
 ===================
 */
+.header{
+  margin: 0;
+  position: sticky;
+}
+
+.header__nav{
+  height: 40px;
+}
 
 /* 
 ===================
@@ -13,6 +21,46 @@
   .block__element
 ===================
 */
+.header__imgContainer{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3B4C5C;
+  border-bottom: 2px #707070;
+}
+
+.header__logo{
+  align-self: center;
+}
+
+.nav__listContainer{
+  height: 40px;
+  background-color: #3B4C5C;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* .nav__forside{
+  padding-left: 47px;
+}
+
+.nav__fester{
+  padding-left: 21px;
+}
+
+.nav__firmaEvents{
+  padding-left: 24px;
+}
+
+.nav__kontakt{
+  padding-left: 22px;
+} */
 
 /* 
 ===================
@@ -21,3 +69,9 @@
   .block--modifier
 ===================
 */
+
+.nav__link--style{
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+}
