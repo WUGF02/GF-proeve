@@ -11,28 +11,74 @@
   </head>
   <body>
     <header class="header">
-      <div class="header__imgContainer">
+      <figure class="header__imgContainer">
         <img src="./img/Event Centrum Logo.png" alt="" class="header__logo" />
-      </div>
+      </figure>
       <nav class="header__nav">
         <ul class="nav__listContainer">
-          <li class="nav__listItem">
-            <a href="#" class="nav__forside nav__link--style">Forside</a>
-          </li>
-          <li class="nav__listItem">
-            <a href="#" class="nav__fester nav__link--style">Fester</a>
-          </li>
-          <li class="nav__listItem">
-            <a href="#" class="nav__firmaEvents nav__link--style">Firma events</a>
-          </li>
-          <li class="nav__listItem">
-            <a href="#" class="nav__kontakt nav__link--style">Kontakt</a>
-          </li>
+            <li class="nav__listItem">
+                <a href="#" class="nav__forside nav__link--style">Forside</a>
+            </li>
+            <li class="nav__listItem">
+                <a href="#fester" class="nav__fester nav__link--style">Fester</a>
+            </li>
+            <li class="nav__listItem">
+                <a href="#firmaEvents" class="nav__firmaEvents nav__link--style">Firma events</a>
+            </li>
+            <li class="nav__listItem">
+                <a href="#" class="nav__kontakt nav__link--style">Kontakt</a>
+            </li>
         </ul>
       </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main class="main">
+        <article class="main__ForsideContainer" id="forside">
+            <h2 class="main__headerForside main__header--style">Erfaring og engagement</h2>
+            <p class="main__textForside main__text--style">Event Centrum har mange års erfaring med udvikling og afholdelse af både store og små arrangementer. </p>
+            <p class="main__text2Forside main__text--style">Hos Event Centrum stræber vi efter, at vores <br> kunder kommer til at opleve glæde og <br> motivation ved hjælp af ekstraordinære <br> oplevelser.  Vi vil med vores professionalisme og <br> gode historier skabe grobund for at styrke <br> relationer mellem ledelse og medarbejdere, <br> virksomheden og kunderne.</p>
+            <button class="main__buttonForside">Læs mere</button>
+        </article>
+        <img src="./img/Fokus produkt.png" alt="Fester" class="main__imgFester" id="fester">
+        <article class="main__festerContainer">
+            <h2 class="main__headerForside main__header--style">Den store fest</h2>
+            <p class="main__textForside main__text--style">Den store jubilæumsfest eller årets personalefest med dans og underholdning.</p>
+            <p class="main__text2Forside main__text--style">  Vi tager udgangspunkt i jeres behov og klarer <br> alt det praktiske omkring arrangementet. Hos <br> vores samarbejdspartnere finder vi det optimale <br> bud på lokale. Vi kan også hjælpe med <br> transport.</p>
+            <button class="main__buttonForside">Læs mere</button>
+        </article>
+        <section class="main__firmaEventsContainer" id="firmaEvents">
+            <h2 class="main__headerFirmaEvents main__header--style">Firma-events</h2>
+            <p class="main__textFirmaEvents main__text--style">Enhver virksomhed er en unik sammensætning <br> af mennesker, ressourcer og udfordringer. <br> <br> Vi tilbyder en række event-pakker som imødekommer de flestes behov.</p>
+            <div class="main__firmaEventsInnerContainer">
+                <article class="main__offerContainer">
+                    <h3 class="main__offerHeader main__header--style">Møde/konference – Sølv</h3>
+                    <h1 class="main__offerPrice"><i class="main__valuta--style">kr.     </i>8000,-</h1>
+                    <p class="main__offerText main__text--style">1 dags møde eller konference-pakke bestående af:</p>
+                    <ul class="main__offerList">
+                        <li class="main__offerListItem">Leje af Event Centrums konference-sal beliggende centralt i Roskilde</li>
+                        <li class="main__offerListItem">Kaffe og te ved ankomst</li>
+                        <li class="main__offerListItem">Stående frokost i foyeren med sandwich og 1 stk. øl eller vand pr. person</li>
+                    </ul>    
+                    <button class="main__offerButton">Hent tilbud</button>
+                </article>
+            </div>
+            <div class="main__firmaEventsInnerContainer">
+                <article class="main__offerContainer">
+                    <h3 class="main__offerHeader main__header--style main__gold--style">Møde/konference – Guld</h3>
+                    <h1 class="main__offerPrice main__gold--style"><i class="main__valuta--style main__gold--style">kr.     </i>14000,-</h1>
+                    <p class="main__offerText main__text--style">1 dags møde eller konference-pakke som sølv-pakken med følgende tilvalg:</p>
+                    <ul class="main__offerList">
+                        <li class="main__offerListItem">Morgenmad med kaffe og te ved ankoms</li>
+                        <li class="main__offerListItem">Brug af gruppelokaler i Event Centrums Konference-faciliteter</li>
+                        <li class="main__offerListItem"> Frokost-buffet i separat lokale incl. 1 stk. øl eller vand pr. person</li>
+                    </ul>    
+                    <button class="main__offerButton">Hent tilbud</button>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        
+    </footer>
   </body>
   <script src="./js/home.js"></script>
 </html>

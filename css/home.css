@@ -6,14 +6,24 @@
 ===================
 */
 .header{
+  width: 100vw;
   margin: 0;
-  position: sticky;
+  position: fixed;
+  top: 0;
 }
 
 .header__nav{
   height: 40px;
 }
 
+.main{
+  margin-top: 130px;
+}
+
+.footer{
+  height: 906px;
+  background-color: #262F38;
+}
 /* 
 ===================
       Element
@@ -21,6 +31,7 @@
   .block__element
 ===================
 */
+
 .header__imgContainer{
   height: 60px;
   display: flex;
@@ -28,6 +39,7 @@
   justify-content: center;
   background-color: #3B4C5C;
   border-bottom: 2px #707070;
+  margin: 0;
 }
 
 .header__logo{
@@ -42,25 +54,108 @@
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
 }
 
-/* .nav__forside{
-  padding-left: 47px;
+.main__headerForside{
+  margin-top: 30.8px;
+  margin: 30.8px 0 18.4px;
 }
 
-.nav__fester{
-  padding-left: 21px;
+
+.main__textForside{
+  margin: 18.4px 0 32.8px;
+  line-height: 21px;
+
+}
+.main__text2Forside{
+  margin: 0 0 31.4px;
+  line-height: 20px;
 }
 
-.nav__firmaEvents{
-  padding-left: 24px;
+.main__buttonForside{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 180px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border: 2px solid #3B4C5C;
+  border-radius: 6px;
+  margin: 0 100px 60px 95px;
+  justify-self: center;
 }
 
-.nav__kontakt{
-  padding-left: 22px;
-} */
+.main__firmaEventsContainer{
+  background: url(../img/Blå\ baggrund.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  padding-bottom: 18px;
+}
+
+.main__headerFirmaEvents{
+  padding: 16.8px 0 0 0;
+  margin: 0;
+  color: #FFFFFF;
+}
+
+.main__textFirmaEvents{
+  color: #B8C9D8;
+  line-height: 24px;
+}
+
+.main__firmaEventsInnerContainer{
+  background-color: rgba(255, 255, 255, 0.150);
+  width: 345px;
+  justify-self: center;
+  margin: 20px 15px 0 15px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.main__offerContainer{
+  width: 285px;
+}
+
+.main__offerHeader{
+  color: #FFFFFF;
+}
+
+.main__offerText{
+  color: #FFFFFF;
+}
+
+.main__offerPrice{
+  color: #FFFFFF;
+  border-top: 2px solid rgba(255, 255, 255, 0.150);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.150);
+  padding: 14px 0 14px 20px;
+  margin: 0;
+}
+.main__offerList{
+  padding-left: 26px;
+}
+
+.main__offerListItem{
+  color: #FFFFFF;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+.main__offerButton{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 110px;
+  height: 37px;
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 2px solid #FFFFFF;
+  border-radius: 6px;
+  margin: 0 70px 33px 88px;
+}
 
 /* 
 ===================
@@ -74,4 +169,23 @@
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   color: #FFFFFF;
+}
+
+.main__header--style{
+  text-align: center;
+  font-weight: 500;
+}
+
+.main__text--style{
+  text-align: center;
+  font-weight: 500;
+}
+
+.main__valuta--style{
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main__gold--style{
+  color: #FFD600;
 }
